@@ -52,6 +52,7 @@ namespace MouseDoubleClick
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 
             Console.WriteLine(SystemInformation.DoubleClickTime.ToString());
+            Console.WriteLine(SystemInformation.DoubleClickSize.ToString());
         }
 
         // Detect a valid single click or double click.
