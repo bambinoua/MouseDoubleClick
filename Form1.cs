@@ -43,6 +43,7 @@ namespace MouseDoubleClick
             textBox1.Size = new Size(200, 100);
             textBox1.AutoSize = false;
             textBox1.Multiline = true;
+            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
 
             this.Paint += new PaintEventHandler(Form1_Paint);
             this.MouseDown += new MouseEventHandler(Form1_MouseDown);
